@@ -1,0 +1,43 @@
+/* Write your code here. */
+.win-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  background-color: #ffffff33;
+  min-height: 60vh;
+  width: 60%;
+  padding: 30px;
+}
+.score-card {
+  padding-left: 40px;
+}
+.status {
+  color: #ffffff;
+  font-size: 56px;
+}
+.score-status {
+  color: #ffffff;
+  font-size: 40px;
+}
+.points {
+  color: #6a59ff;
+  font-size: 40px;
+  font-weight: bold;
+}
+.play-again {
+  border-style: none;
+  background-color: #ffce27;
+  padding: 15px;
+  border-radius: 12px;
+  color: #3d3d3d;
+}

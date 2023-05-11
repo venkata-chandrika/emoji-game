@@ -1,0 +1,41 @@
+/* Write your code here. */
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff33;
+  width: 100%;
+  margin-top: 0px;
+  /* flex-grow: 1; */
+}
+.emoji-logo-container {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 30px;
+}
+.emoji-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  align-self: center;
+}
+.emoji-game {
+  font-size: 18px;
+  color: #ffffff;
+  align-self: center;
+}
+.score-container {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+}
+.score {
+  font-size: 20px;
+  color: #ffffff;
+  align-self: center;
+  margin-right: 30px;
+}
+.total {
+  font-size: 20px;
+  color: #ffffff;
+  align-self: center;
+}
